@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>D3 Interactive Bar Chart</title>
+    <link rel="icon" href="data:;base64,iVBORwOKGO=" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Dataset</h1>
+        <iframe width="1000" height="400" frameborder="0" scrolling="no"
+            src="https://mailuc-my.sharepoint.com/personal/verstar_mail_uc_edu/_layouts/15/Doc.aspx?sourcedoc={1093d0c7-c99a-4da4-96c0-5ec8fcda03b7}&action=embedview&AllowTyping=True&wdHideGridlines=True&wdHideHeaders=True&wdDownloadButton=True&wdInConfigurator=True&wdInConfigurator=True&edesNext=true&resen=false&ed1JS=false"></iframe>
+
+    </div>
+    <div class="container">
+        <h1>Exoplantents from Systems with Varying Star Counts</h1>
+        <svg id="StarChart"></svg>
+        <div id="footer">
+            <div class="footer-col">
+            </div>
+        </div>
+    </div>
+    <div id="tooltip"></div>
+    <script src="js/d3.v6.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/barchart.js"></script>
+    <script src="js/planetBarchart.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+<body>
+    <div class="container">
+        <h1>Exoplanets By Star Type</h1>
+        <svg id="StarTypeChart"></svg>
+        <div id="footer">
+            <div class="footer-col">
+                <p><a href="https://astrobackyard.com/types-of-stars/">Learn More About Star Types</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Exoplantents in Systems with Varying Planet Counts</h1>
+        <svg id="PlanetChart"></svg>
+    </div>
+    <div class="container">
+        <h1>Habitable Exoplanents by Star Type</h1>
+        <svg id="HabitableExoplanets"></svg>
+        <div id="footer"></div>
+    </div>
+    <div class="container">
+        <h1>Exoplanets Discovered by Year</h1>
+        <svg id="DiscoveryYear"></svg>
+        <div id="footer"></div>
+    </div>
+    <div class="container">
+        <h1>Distributions of Exoplanents</h1>
+        <div id="histogram"></div>
+    </div>
+    </div>
+    <div class="container-fluid">
+        <h1>Exoplanets By Discovery Method</h1>
+        <svg id="DiscoveryTypeChart"></svg>
+        <div id="footer">
+            <div class="footer-col">
+                <p><a href="https://sci.esa.int/web/exoplanets/-/60655-detection-methods">Learn More About Discovery
+                        Methods
+                        Types</a></p>
+            </div>
+        </div>
+    </div>
+    <div id="tooltip"></div>
+    <script src="js/d3.v6.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js\starTypeChart.js"></script>
+    <script src="js\discoveryMethodChart.js"></script>
+    <script src="js\lineChart.js"></script>
+    <script src="js\distanceHistogram.js"></script>
+    <script src="js\stackedBarChart.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
